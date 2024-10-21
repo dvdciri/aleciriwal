@@ -1,5 +1,5 @@
-const token = 'YOUR_ACCESS_TOKEN'; // Replace with your access token
-const userId = 'YOUR_USER_ID'; // Replace with your user id (Instagram Business/Creator Account)
+const token = 'EAAPniues4f4BO9SMA86MLRPiFNEmNGSi2bluMw1tT6cZAJo4luN3JqcjZBsdd55ll2NoBGtWu0bC4owxGQlmf2PsHlvQcCUWP5j4FpZAIf74jujiGAkXCMwR8K8ldidTeqQdexYhT1EYsbZBZB6Q9yz8ynzPpL3Xbw8xIfkD29DshKI8nOqkBb7Bn3ambzIZCc0ImMCRC6mmMM2jeuBoi3PuO7gQZDZD'; // Replace with your access token
+const userId = '854184200246348'; // Replace with your user id (Instagram Business/Creator Account)
 
 const postsContainer = document.getElementById('posts-container');
 const hashtagInput = document.getElementById('hashtag');
