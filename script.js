@@ -2,6 +2,7 @@ const token = 'IGQWROS3lSbklLOGVOdFJXVWVESWVLNTQxM1RxRWZArUHNFS1FXbElSX1J4U0tKbl
 const userId = '854184200246348'; // Replace with your user id (Instagram Business/Creator Account)
 const hashtagName = 'dogs'; // Replace with your hashtag
 const postsContainer = document.getElementById('posts-container');
+const title = document.getElementById('title');
 
 // Function to get the hashtag ID from Instagram API
 async function getHashtagId() {
@@ -48,6 +49,7 @@ function displayPosts(posts) {
     }
     
     postsContainer.appendChild(postDiv);
+    title.textContent("testing");
   });
 }
 
