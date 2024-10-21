@@ -1,68 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Hashtag Posts</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            text-align: center;
-        }
-        .posts {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 10px;
-        }
-        .embed-post {
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Instagram Hashtag Wall">
+  <title>Instagram Hashtag Wall</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Instagram Hashtag Wall</h1>
+  </header>
 
-<h1>Instagram Posts for #YourHashtag</h1>
-<div class="posts">
-    <div class="embed-post">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/POST_ID_1/" data-instgrm-version="12">
-            <a href="https://www.instagram.com/p/POST_ID_1/">Link to Instagram post</a>
-        </blockquote>
-    </div>
-    <div class="embed-post">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/POST_ID_2/" data-instgrm-version="12">
-            <a href="https://www.instagram.com/p/POST_ID_2/">Link to Instagram post</a>
-        </blockquote>
-    </div>
-    <div class="embed-post">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/POST_ID_3/" data-instgrm-version="12">
-            <a href="https://www.instagram.com/p/POST_ID_3/">Link to Instagram post</a>
-        </blockquote>
-    </div>
-    <div class="embed-post">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/POST_ID_4/" data-instgrm-version="12">
-            <a href="https://www.instagram.com/p/POST_ID_4/">Link to Instagram post</a>
-        </blockquote>
-    </div>
-    <div class="embed-post">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/POST_ID_5/" data-instgrm-version="12">
-            <a href="https://www.instagram.com/p/POST_ID_5/">Link to Instagram post</a>
-        </blockquote>
-    </div>
-    <!-- Add more posts here -->
-</div>
+  <main>
+    <section id="instagram-wall">
+      <h2>Posts from Instagram</h2>
+      <div id="posts-container">
+        <!-- Posts will be embedded here -->
+      </div>
+    </section>
+  </main>
 
-<!-- Instagram embed script -->
-<script async src="//www.instagram.com/embed.js"></script>
+  <footer>
+    <p>Powered by Instagram | <a href="https://github.com/yourusername/instagram-hashtag-wall">View Source on GitHub</a></p>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
