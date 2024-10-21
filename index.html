@@ -6,6 +6,39 @@
   <meta name="description" content="Instagram Hashtag Wall">
   <title>Instagram Hashtag Wall</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add the following styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    #instagram-wall {
+      margin-top: 20px;
+    }
+
+    #posts-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* Four columns */
+      gap: 10px; /* Space between posts */
+    }
+
+    .instagram-post {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -14,7 +47,7 @@
 
   <main>
     <section id="instagram-wall">
-      <h2>Posts from Instagram</h2>
+      <h2>Posts for #YourHashtag</h2>
       <div id="posts-container">
         <!-- Posts will be embedded here -->
       </div>
