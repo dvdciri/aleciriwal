@@ -12,8 +12,15 @@
   </header>
 
   <main>
+    <!-- Hashtag Input Form -->
+    <section id="hashtag-input">
+      <label for="hashtag">Enter a Hashtag (without #):</label>
+      <input type="text" id="hashtag" placeholder="YourHashtag">
+      <button id="loadPostsButton">Load Posts</button>
+    </section>
+
     <section id="instagram-wall">
-      <h2 id="title">Posts for #YourHashtag</h2>
+      <h2>Posts for <span id="hashtagTitle">#YourHashtag</span></h2>
       <div id="posts-container">
         <!-- Instagram posts will load here -->
       </div>
