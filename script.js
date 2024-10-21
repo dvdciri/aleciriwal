@@ -1,13 +1,12 @@
 // Example array of post URLs. Replace these with actual post URLs.
 const posts = [
-  "https://www.instagram.com/p/YourPostID1/",
-  "https://www.instagram.com/p/YourPostID2/",
-  "https://www.instagram.com/p/YourPostID3/",
-  "https://www.instagram.com/p/YourPostID4/",
-  "https://www.instagram.com/p/YourPostID5/",
-  "https://www.instagram.com/p/YourPostID6/",
-  "https://www.instagram.com/p/YourPostID7/",
-  "https://www.instagram.com/p/YourPostID8/",
+  "https://www.instagram.com/p/C4IQQ0uIw71/",
+  "https://www.instagram.com/p/CrakSHAIQBc/",
+  "https://www.instagram.com/p/DBOg02WI7H3/",
+  "https://www.instagram.com/p/DBI7lbdIl3L/",
+  "https://www.instagram.com/p/DBD6BEfIRqR/",
+  "https://www.instagram.com/p/DAu9p0yII6h/",
+  "https://www.instagram.com/p/C_u0xgDo5_b/",
   // Add more URLs as needed
 ];
 
