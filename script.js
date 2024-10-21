@@ -1,4 +1,4 @@
-const token = 'EAAPniues4f4BO9SMA86MLRPiFNEmNGSi2bluMw1tT6cZAJo4luN3JqcjZBsdd55ll2NoBGtWu0bC4owxGQlmf2PsHlvQcCUWP5j4FpZAIf74jujiGAkXCMwR8K8ldidTeqQdexYhT1EYsbZBZB6Q9yz8ynzPpL3Xbw8xIfkD29DshKI8nOqkBb7Bn3ambzIZCc0ImMCRC6mmMM2jeuBoi3PuO7gQZDZD'; // Replace with your access token
+const token = 'EAAPniues4f4BO3D8pcAW79kk1lBKHLZCcZBpXZCkZCWqfUTa5X9YgrQ1kki1ivpHQ13qUXW6MJK2VTLMT9wc3VFyBJLiZBo0N0zhWrsdHYer0gkYHnrCcN4YGhifDupZCZB2KNaPVw3Xjtmq4HlUCG8wpOKEfoOxZCNn0Sao4CngDgYbzhOqXUYC0QZDZD'; // Replace with your access token
 const userId = '854184200246348'; // Replace with your user id (Instagram Business/Creator Account)
 
 const postsContainer = document.getElementById('posts-container');
